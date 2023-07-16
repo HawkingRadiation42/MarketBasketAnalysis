@@ -13,6 +13,4 @@ with open(file_path, 'rb') as f:
     file_data = f.read()
     r = requests.post(url, data=file_data)
 print(r.text)
-and 
-using download the input data using this url
 ```
